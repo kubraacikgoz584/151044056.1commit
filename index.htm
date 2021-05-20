@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>İletisim Formu</title>
+        <link rel="stylesheet" href="css/tip.css">
+        <script src="scripts.js"></script>
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <h2>BİZE ULAŞIN</h2>
+            <div id="errormessage"> </div>
+            <form id="myform" onsubmit="return.validation()">
+                <div class="input_field">
+                    <input type="text" placeholder="AD" id="AD">
+                </div>
+                <div class="input_field">
+                    <input type="text" placeholder="SOYADI" id="SOYADI">
+                </div>
+                <div class="input_field">
+                    <input type="text" placeholder="TELEFON" id="TELEFON">
+                </div>
+                <div class="input_field">
+                    <input type="text" placeholder="EMAİL" id="EMAİL">
+                </div>
+                <div class="input_field">
+                    <textarea id="MESAJ" placeholder="MESAJ" ></textarea>
+                </div>
+                <div class="btn">
+                    <input type="submit">
+                </div>
+            </form>
+        </div>
+    </body>
+
+</html>

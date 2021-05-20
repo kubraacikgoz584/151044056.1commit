@@ -1,327 +1,674 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/myStyle.css">
-    <title>Memleket Kokusu | Samsunluyum! Samsunlusun! Samsunluyuz!</title>
-    <script src="https://kit.fontawesome.com/d8c5b761bc.js" crossorigin="anonymous"></script>
-  </head>
-  <body>
-    
-      <!--Menü kısmı başlangıç-->
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Memleket Kokusu | Samsunluyum! Samsunlusun! Samsunluyuz!</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#menu">Anasayfa</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#hakkimizda">Hakkımızda</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#ozgecmis">Özgeçmiş</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#sehrim">Şehrim</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#mirasimiz">Mirasımız</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#ilgialanlarim">İlgi Alanlarım</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#login">Login</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#iletisim">İletişim</a>
-              </li>
-              
-            </ul>
-          </div>
-        </div>7
-      </nav>
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/myStyle.css">
+  <title>Memleket Kokusu | Samsunluyum! Samsunlusun! Samsunluyuz!</title>
+  <script src="https://kit.fontawesome.com/d8c5b761bc.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+
+<body>
+
+  <!--Menü kısmı başlangıç-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Memleket Kokusu | Samsunluyum! Samsunlusun! Samsunluyuz!</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#menu">Anasayfa</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#hakkimizda">Hakkımızda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#ozgecmis">Özgeçmiş</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#sehrim">Şehrim</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#mirasimiz">Mirasımız</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#ilgialanlarim">İlgi Alanlarım</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#login">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#iletisim">İletişim</a>
+          </li>
+
+        </ul>
+      </div>
+    </div>7
+  </nav>
 
 
-       <!--Menü kısmı bitiş-->
+  <!--Menü kısmı bitiş-->
 
-       <!--Slider Başlangıç-->
-       <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  <!--Slider Başlangıç-->
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/samsun1.jpg" class="d-block w-100 resimSlider" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>First slide label</h5>
+          <p>Some representative placeholder content for the first slide.</p>
         </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="img/samsun1.jpg" class="d-block w-100 resimSlider" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>First slide label</h5>
-              <p>Some representative placeholder content for the first slide.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="img/samsun2.jpg" class="d-block w-100 resimSlider" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Second slide label</h5>
-              <p>Some representative placeholder content for the second slide.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="img/samsun3.jpg" class="d-block w-100 resimSlider" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Third slide label</h5>
-              <p>Some representative placeholder content for the third slide.</p>
-            </div>
-          </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/samsun2.jpg" class="d-block w-100 resimSlider" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Second slide label</h5>
+          <p>Some representative placeholder content for the second slide.</p>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+      </div>
+      <div class="carousel-item">
+        <img src="img/samsun3.jpg" class="d-block w-100 resimSlider" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Third slide label</h5>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!--Slider Bitiş-->
+
+  <!--Hakkımızda Başlangıç-->
+  <section class="p-5 text-center hakkimizda">
+    <div class="container">
+      <h2>HAKKIMIZDA</h2>
+      <hr class="ayrac"> <i class="fas fa-fish ibeyaz"></i>
+      <hr class="mb-5 font-weight-bold">
+      <p>
+        Merhaba ben Kübra Açıkgöz.04.06.1997 yılında İstanbul'da doğdum.Aslen Samsun Havzalıyım. Babamın polis olması
+        nedeniyle bazı şehirlere tayinimiz çıktı ve hayatımı farklı şehirlerde yaşamak zorunda kaldım.Öncelikle 5 yıl
+        İstanbul'da yaşadıktan sonra Çorum 'a tayinimiz çıktı.Hayatımın uzun bir bölümünü burada geçirdim.İlkokul ve
+        lise
+        hayatım Çorum'da geçti.İlkokulu Çorum Mustafa Kemal YİBO ilköğetim okulunda okudum.Daha sonra Çorum Fen
+        Lisesin'nde
+        öğretim hayatıma devam ettim.Daha sonra üniversite için Kocaeli Gebzeye geldim.Bir süre Gebze Teknik
+        Üniversitesin'de
+        okuduktan sonra Sakarya 'ya geçiş yaptım.Sakarya ya covid-19 dönemi geçiş yaptığım için görmek nasip
+        olmadı.İnşalllah
+        bir gün görmek nasip olur.
+        Ailemden bahsedecek olursam babamın adı Ahmet ve polis memurudur.Babam Samsun Havzalıdır.Annemin ismi Sibel ve
+        ev hanımıdır.
+        Annem ise Amasya Merzifonludur.Benden 5 yaş büyük bir abim var.O da bilgisayar mühendisidir.Onun ise doğum yeri
+        Şanlıurfa'dır
+        Ben kendimde şuan Sakarya Üniversitesi'nde bilgisayar mühendisliği okumaktayım.Benim doğum yerim İstanbul
+        Eminönü'dür.Babamın
+        polis olması sebebiyle herbirimiz farklı şehirde doğdu.Ama Kütük herkesin Samsun.Samsuna gelince Samsun deniz
+        kenarı ne büyük
+        ne küçük güzel bir şehir.Türkiye Cumhuruyeti tarihi içinde önemi yüksek olan şehirlerimizdendir.
+
+        Bunun dışında yaptığım şeylerden bahsedecek olursam.Bir dönem piano ve gitar çaldım.Çok profesyonel bir şekilde
+        devam etmesem bile
+        hala hobi olarak devam etmekteyim.İlkokuldan beri basketbol oynamaktaydım.Ve lise dönemimde Fenerbahçe alt
+        yapıda oynamaya başladım.
+        Bir süre profesyonel bir şekilde devam ettirdim.Ama hayat şartları ve derlerin yoğunluğu dolayısı ile bırakmak
+        zorunda kaldım.
+        Üniversite dönemimde halk oyunlarına merak saldım ve bu konuda bayağı iyi bir şekilde ilerledim.Çek Cumhuriyeti
+        Prag'da ülkemizi temsil
+        etmek için gösteriye gittim.Daha sonra ise latin dansla ilgilendim.Profesyonel bir şekilde devam etmesem bile
+        devam etmekteyim.
+
+        Gelecekteki hedeflerime gelecek olursak okul bittikten sonra güzel bir iş bulup kendimi geliştirip iyi yerlere
+        gelmek istiyorum.
+        bütün ailem bilgisayar mühendisi olduğu için belki ileride bir gün bir aile şirketi kurmak gibibir hedefim var
+        .Umarım hayallerim
+        gerçekleşir.
+
+      </p>
+    </div>
+
+    <div class="card-group">
+      <div class="card">
+        <img src="img/resim1.jpg" class="card-img-top" alt="100mp">
+        <div class="card-body">
+          <h5 class="card-title">PİANO</h5>
+          <p class="card-text">Lise 2 ye giderken bir dönem pianoya merak saldım ve çalmaya başladım.Çok
+            profesyonel olmasamda hala çalmaya devam etmekteyim. </p>
+
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/resim2.jpg" class="card-img-top" alt="500mp">
+        <div class="card-body">
+          <h5 class="card-title">GİTAR</h5>
+          <p class="card-text">Lise 1 e giderken bir dönem gitara merak saldım ve çalmaya başladım.Çok
+            profesyonel olmasamda hala çalmaya devam etmekteyim.</p>
+
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/resim3.jpg" class="card-img-top" alt="100mp">
+        <div class="card-body">
+          <h5 class="card-title">BASKETBOL</h5>
+          <p class="card-text">İlkokuldan beri basketbola karşı hep bir merakım vardı ve profesyonel olmasada kendi
+            çapımda
+            mahalledeki basketbol sahasında sık sık oynardım.Daha sonra lisede daha profesyonel oynamaya karar verdim ve
+            Çorum
+            Fenerbahçe altyapıda basketbol oynamaya başladım ve bir dönem burda basketbol oynamaya devam ettim. </p>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!--Hakkımızda Bitiş-->
+
+  <!--Özgeçmiş başlangıç-->
+  <section class="p-5 text-center hakkimizda">
+    <div class="container">
+      <h2>ÖZGEÇMİŞ</h2>
+      <hr class="ayrac2"> <i class="fas fa-fish ibeyaz2"></i>
+      <hr class="mb-5 font-weight-bold">
+
+      <div class="card" style="width: 18rem;">
+        <img src="img/3089125c-cdcc-4691-8f28-df5ae33b5e78.jpg" class="card-img-top" alt="...">
       </div>
 
-       <!--Slider Bitiş-->
+      <p>
+        <b>CV</b> <br>
+        Kübra Açıgöz<br>
 
-       <!--Hakkımızda Başlangıç-->
-          <section class="p-5 text-center hakkimizda">
-              <div class="container">
-                  <h2>HAKKIMIZDA</h2>
-                  <hr class="ayrac"> <i class="fas fa-fish ibeyaz"></i>
-                  <hr class="mb-5 font-weight-bold">
-                  <p>
-                        Merhaba ben Kübra Açıkgöz.04.06.1997 yılında İstanbul'da doğdum.Aslen Samsun Havzalıyım. Babamın polis olması 
-                    nedeniyle bazı şehirlere tayinimiz çıktı ve hayatımı farklı şehirlerde yaşamak zorunda kaldım.Öncelikle 5 yıl 
-                    İstanbul'da yaşadıktan sonra Çorum 'a tayinimiz çıktı.Hayatımın uzun bir bölümünü burada geçirdim.İlkokul ve lise 
-                    hayatım Çorum'da geçti.İlkokulu Çorum Mustafa Kemal YİBO ilköğetim okulunda okudum.Daha sonra Çorum Fen Lisesin'nde 
-                    öğretim hayatıma devam ettim.Daha sonra üniversite için Kocaeli Gebzeye geldim.Bir süre Gebze Teknik Üniversitesin'de
-                    okuduktan sonra Sakarya 'ya geçiş yaptım.Sakarya ya covid-19 dönemi geçiş yaptığım için görmek nasip olmadı.İnşalllah 
-                    bir gün görmek nasip olur.
-                        Ailemden bahsedecek olursam babamın adı Ahmet ve  polis memurudur.Babam Samsun Havzalıdır.Annemin ismi Sibel ve ev hanımıdır.
-                    Annem ise Amasya Merzifonludur.Benden 5 yaş  büyük bir abim var.O da bilgisayar mühendisidir.Onun ise doğum yeri Şanlıurfa'dır
-                    Ben kendimde şuan Sakarya Üniversitesi'nde bilgisayar mühendisliği okumaktayım.Benim doğum yerim İstanbul Eminönü'dür.Babamın 
-                    polis olması sebebiyle herbirimiz farklı şehirde doğdu.Ama Kütük herkesin Samsun.Samsuna gelince Samsun deniz kenarı ne büyük
-                    ne küçük güzel bir şehir.Türkiye Cumhuruyeti tarihi içinde önemi yüksek olan şehirlerimizdendir.
-              
-                        Bunun dışında yaptığım şeylerden bahsedecek olursam.Bir dönem piano ve gitar çaldım.Çok profesyonel bir şekilde devam  etmesem bile 
-                    hala hobi olarak devam etmekteyim.İlkokuldan beri basketbol oynamaktaydım.Ve lise dönemimde Fenerbahçe alt yapıda oynamaya başladım.
-                    Bir süre profesyonel bir şekilde devam ettirdim.Ama hayat şartları ve derlerin yoğunluğu dolayısı ile bırakmak zorunda kaldım.
-                    Üniversite dönemimde halk oyunlarına merak saldım ve bu konuda bayağı iyi bir şekilde ilerledim.Çek Cumhuriyeti Prag'da ülkemizi temsil
-                    etmek için gösteriye gittim.Daha sonra ise latin dansla ilgilendim.Profesyonel bir şekilde devam etmesem bile devam etmekteyim. 
-                        
-                      Gelecekteki hedeflerime gelecek olursak okul bittikten sonra güzel bir iş bulup kendimi geliştirip iyi yerlere gelmek istiyorum.
-                    bütün ailem bilgisayar mühendisi olduğu için belki ileride bir gün bir aile şirketi kurmak gibibir hedefim var .Umarım hayallerim
-                    gerçekleşir.
-                                           
-                  </p>
-              </div>
+        Adres: Çamlık mahallesi meşe sokak no:4 pendik/istanbul<br>
 
-              <div class="card-group">
-                <div class="card">
-                  <img src="img/resim1.jpg" class="card-img-top" alt="100mp">
-                  <div class="card-body">
-                    <h5 class="card-title">PİANO</h5>
-                    <p class="card-text">Lise 2 ye giderken bir dönem pianoya merak saldım ve çalmaya başladım.Çok 
-                      profesyonel olmasamda hala çalmaya devam etmekteyim. </p>
+        GSM: 0 505 988 75 40<br>
 
+        Mail: kubra***@gmail.com<br>
+
+        <b>KARİYER HEDEFİ:</b>Bilgisayar mühendisliği eğitimimi bitirip Kariyerime web aplication bölümünde<br>
+        ilerlemeye devam etmeyi düşünüyorum<br>
+
+        <b>ÇALIŞMAK İSTENEN ALANLAR:</b><br>
+
+        Bilgisayar mühendisliği web aplication sorumlusu<br>
+
+        <b>EĞİTİM:</b><br>
+        ·*****Sakarya Üniversitesi**** Bilgisayar Mühendisliği(2020-halen)<br>
+
+        ·*****Gebze Teknik Üniversitesi**** Bilgisayar Mühendisliği(2015-2020)<br>
+
+        · Çorum Fen Lisesi (2015 mezunu)<br>
+
+        <b>YABANCI DİL:</b><br>
+
+        İngilizce /Çok İyi<br>
+
+        <b>İŞ TECRÜBESİ:</b><br>
+
+        YOK<br>
+
+        <b>KİŞİSEL BİLGİLER:</b><br>
+        Doğum Yeri : İSTANBUL<br>
+
+        Doğum Tarihi :04.08.1998<br>
+
+        Askerlik Durumu : Muaf<br>
+
+        Medeni Durumu : Bekar<br>
+
+        Sürücü Belgesi :– B Sınıfı Sürücü Belgesi<br>
+
+        <b>BİLGİSAYAR BİLGİSİ:</b><br>
+
+        C dili (İyi Düzeyde)<br>
+
+        C++ dili (Orta Düzeyde)<br>
+
+        C# dili (Orta Düzeyde)<br>
+
+        Java dili (Başlangıç Düzeyinde)<br>
+
+        Html (Orta Düzeyde)<br>
+
+        Css (Orta Düzeyde)<br>
+
+        <b>SERTİFİKA VE EĞİTİM PROGRAMLARI:</b><br>
+
+        ·2016 Pendik Halk Eğitim Merkezi Halk Oyunları Sertifikası<br>
+        ·2017 Gebze Teknik Üniversitesi Girişimcilik Sertifkası<br>
+        ·2017 Gebze Teknik Üniversitesi Kariyer Sertifkası<br>
+        <b>HOBİLER:</b><br>
+
+        Piano çalmak,gitar çalmak,basketbol oynamak,halk oyunları, latin dansları<br>
+
+        REFERANSLAR:<br>
+
+        Adı Soyadı Fatih Oğuz 0545 764 73 65<br>
+
+        Adı Soyadı Onur Yağcı 0533 876 48 34<br>
+
+      </p>
+    </div>
+  </section>
+
+  <!--Özgeçmiş Bitiş-->
+
+  <!--Şehrim Başlangıç-->
+  <!--Slader baslangıc-->
+  <section class="p-5 text-center hakkimizda">
+    <div class="container">
+      <h3> <b>ŞEHRİM</b> </h3>
+      <hr class="ayrac2"> <i class="fas fa-fish ibeyaz2"></i>
+      <hr class="mb-5 font-weight-bold">
+
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4"></div>
+          <p>
+            <b>Samsun'un Tarihi tanıtımı</b><br>
+            Samsun Yüzölçümü: 9579 km²<br>
+            Samsun Nüfusu: 1.335.716<br>
+            Samsun İlçeleri: Alaçam, Asarcık, Ayvacık, Bafra, Çarşamba, Havza, Kavak, Ladik, Ondokuzmayıs,
+
+            Salıpazarı, Tekkeköy, Terme, Vezirköprü, Yakakent.Orta Kardeniz Bögesi'nde yer alan, Yeşilırmak
+            ve Kızılırmak deltası arasında Türkiye'nin en verimli toprakları arasında yer alan asırlar öncesine
+            dayanan Samsun tarihi ve kültürel zenginlikleri, deniz, kara, hava, demiryolu ulaşım olanakları ile
+            bölgenin turizm potansiyeli en yüksek kentlerinden biridir. Ordu, Sinop, Tokat, Amasya ve Çorum ile
+            komşu olan Samsun, Mustafa Kemal Atatürk 19 Mayıs 1919'da Samsun'a ayak basarak ulusal bağımsızlık
+            savaşını burada başlatmış oluduğundan Türk Ulusu için tarihi bir öneme sahiptir. M.Ö.750 -760 yılları
+            arasında İon şehir devletlerinden Miletoslular (Millet) tarafından Amisos adı ile kurulmuş olan Samsun,
+            daha sonra Pers, Makedonya, Pontus, Roma, Bizans, Danişment, Selçuklu ve Osmanlı hakimiyetinde kalmıştır.
+            Geçmişten günümüze kadar bölgenin Ticaret Limanı konumunda olan Samsun, Limanları, Nehirleri, ırmakları,
+            dereleri, yaylaları, ormanları, denizi, verimli toprakları, güneşi, kumsalları ile tamamen doğa harikasıdır.
+          </p>
+          <div class="col-md-8">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="img/ressam.jpg" class="d-block w-100" alt="First slide" height="300">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h3> Slider 1</h3>
                   </div>
                 </div>
-                <div class="card">
-                  <img src="img/resim2.jpg" class="card-img-top" alt="500mp">
-                  <div class="card-body">
-                    <h5 class="card-title">GİTAR</h5>
-                    <p class="card-text">Lise 1 e giderken bir dönem gitara merak saldım ve çalmaya başladım.Çok 
-                      profesyonel olmasamda hala çalmaya devam etmekteyim.</p>
-                    
+                <div class="carousel-item">
+                  <img src="img/ressam2.jpg" class="d-block w-100" alt="Second slide" height="300">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h3> Slider 2</h3>
                   </div>
                 </div>
-                <div class="card">
-                  <img src="img/resim3.jpg" class="card-img-top" alt="100mp">
-                  <div class="card-body">
-                    <h5 class="card-title">BASKETBOL</h5>
-                    <p class="card-text">İlkokuldan beri basketbola karşı hep bir merakım vardı ve profesyonel olmasada kendi çapımda
-                     mahalledeki basketbol sahasında sık sık oynardım.Daha sonra lisede daha profesyonel oynamaya karar verdim ve Çorum
-                    Fenerbahçe altyapıda basketbol oynamaya başladım ve bir dönem burda basketbol oynamaya devam ettim. </p>
-                    
+                <div class="carousel-item">
+                  <img src="img/ressam3.jpg" class="d-block w-100" alt="Third slide" height="300">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h3> Slider 3</h3>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="img/ressam4.jpg" class="d-block w-100" alt="Forth slide" height="300">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h3> Slider 4</h3>
                   </div>
                 </div>
               </div>
-          </section>
-
-
-
-        <!--Hakkımızda Bitiş-->
-
-        <!--Özgeçmiş başlangıç-->
-        <section class="p-5 text-center hakkimizda">
-          <div class="container">
-              <h2>ÖZGEÇMİŞ</h2>
-              <hr class="ayrac2"> <i class="fas fa-fish ibeyaz2"></i>
-              <hr class="mb-5 font-weight-bold">
-
-              <div class="card" style="width: 18rem;">
-                <img src="img/3089125c-cdcc-4691-8f28-df5ae33b5e78.jpg" class="card-img-top" alt="...">
-              </div>
-
-              <p>
-                                            <b>CV</b>  <br> 
-                Kübra Açıgöz<br> 
-                
-                Adres: Çamlık mahallesi meşe sokak no:4 pendik/istanbul<br> 
-                
-                GSM: 0 505 988 75 40<br> 
-                
-                Mail: kubra***@gmail.com<br>
-                
-                <b>KARİYER HEDEFİ:</b>Bilgisayar mühendisliği eğitimimi bitirip Kariyerime web aplication bölümünde<br> 
-                ilerlemeye devam etmeyi düşünüyorum<br>
-                
-                <b>ÇALIŞMAK İSTENEN ALANLAR:</b><br>
-
-                Bilgisayar mühendisliği web aplication sorumlusu<br>
-
-                <b>EĞİTİM:</b><br>
-                ·*****Sakarya Üniversitesi**** Bilgisayar Mühendisliği(2020-halen)<br>
-
-                ·*****Gebze Teknik Üniversitesi**** Bilgisayar Mühendisliği(2015-2020)<br>
-
-                · Çorum Fen Lisesi (2015 mezunu)<br>
-
-                <b>YABANCI DİL:</b><br>
-
-                İngilizce /Çok İyi<br>
-
-                <b>İŞ TECRÜBESİ:</b><br>
-
-                  YOK<br>
-
-                  <b>KİŞİSEL BİLGİLER:</b><br>
-                  Doğum Yeri       : İSTANBUL<br>
-
-                  Doğum Tarihi     :04.08.1998<br>
-
-                  Askerlik Durumu  : Muaf<br>
-
-                  Medeni Durumu    : Bekar<br>
-
-                  Sürücü Belgesi   :– B Sınıfı Sürücü Belgesi<br>
-
-                  <b>BİLGİSAYAR BİLGİSİ:</b><br>
-
-                  C dili                 (İyi Düzeyde)<br>
-
-                  C++ dili               (Orta Düzeyde)<br>
-
-                  C# dili                (Orta Düzeyde)<br>
-
-                  Java dili              (Başlangıç Düzeyinde)<br>
-
-                  Html                   (Orta Düzeyde)<br>
-
-                  Css                    (Orta Düzeyde)<br>
-                  
-                  <b>SERTİFİKA VE EĞİTİM PROGRAMLARI:</b><br>
-
-                  ·2016 Pendik Halk Eğitim Merkezi Halk Oyunları Sertifikası<br>
-                  ·2017 Gebze Teknik Üniversitesi Girişimcilik Sertifkası<br>
-                  ·2017 Gebze Teknik Üniversitesi Kariyer Sertifkası<br>
-                  <b>HOBİLER:</b><br>
-
-                  Piano çalmak,gitar çalmak,basketbol oynamak,halk oyunları, latin dansları<br>
-
-                  REFERANSLAR:<br>
-
-                  Adı Soyadı                                     Fatih Oğuz                  0545 764 73 65<br>
-
-                  Adı Soyadı                                     Onur Yağcı                  0533 876 48 34<br>
-              
-              </p>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
           </div>
-        </section>
 
-        <!--Özgeçmiş Bitiş-->
+          <p><b>Samsun'da Gezilecek Yerler</b><br>
+            Karadenizin Trabzon ve Rize ile birlikte turizim gözdesi olmaya başlayan Samsun, yerli ve
+            yabancı turistlerin vazgeçilmez tatil bölgelerinden biri haline gelmiştir. Hem ekonomik hemde
+            kültürel bir çok gezi noktasını sınırlarında bulunduran Samsun'un gezilecek yerlerini sizler
+            için derledik. Bizim eksik kaldığımız yerleri sizlerde yorum kısmından tamamlayabilirsiniz..!<br>
 
-        <!--Şehrim Başlangıç-->
-            <!--Slader baslangıc-->
-            <section class="p-5 text-center hakkimizda">
-              <div class="container">
-                  <hr class="ayrac2"> <i class="fas fa-fish ibeyaz2"></i>
-                  <hr class="mb-5 font-weight-bold">
-                 <h3> <b>ŞEHRİM</b> </h3>
-                                            
-              <div class="container">
-                 <div class="row">
-                    <div class="col-md-4">Menü kısmı</div>
-                        <div class="col-md-8">
-                          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                            <div class="carousel-inner">
-                              <div class="carousel-item active">
-                                <img src="img/ressam.jpg" class="d-block w-100" alt="First slide" height="300">
-                                  <div class="carousel-caption d-none d-md-block">
-                                    <h3> Slider 1</h3>
-                                  </div>
-                                </div>
-                              <div class="carousel-item">
-                                <img src="img/ressam2.jpg" class="d-block w-100" alt="Second slide" height="300">
-                                  <div class="carousel-caption d-none d-md-block">
-                                    <h3> Slider 2</h3>
-                                  </div>
-                              </div>
-                              <div class="carousel-item">
-                                <img src="img/ressam3.jpg" class="d-block w-100" alt="Third slide" height="300">
-                                  <div class="carousel-caption d-none d-md-block">
-                                    <h3> Slider 3</h3>
-                                  </div>
-                              </div>
-                              <div class="carousel-item">
-                                <img src="img/ressam4.jpg" class="d-block w-100" alt="Forth slide" height="300">
-                                  <div class="carousel-caption d-none d-md-block">
-                                    <h3> Slider 4</h3>
-                                  </div>
-                              </div>
-                            </div>
-                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                              <span class="visually-hidden">Previous</span>
-                            </button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                              <span class="visually-hidden">Next</span>
-                            </button>
-                          </div>
-                        </div>
-                </div>
+
+          
+
+
+            <b>Samsun, Atatürk Onur Anıtı</b><br>
+            Kurtuluş Savaşını ve Türkiye Cumhuriyeti'ni kurmak adına atılan ilk adımı Samsun'a çıkarak veren Mustafa
+            Kemal adına Samsun halkının minnet ve sevgi duygularını ifade ederek yaptırılmış olan heykellerden bir
+            tanesi. Samsun'un sembol yapılarından bir tanesi olan Atatürk Onur Anıtı, kesinlikle görülmesi gereken bir
+            değer.<br>
+
+            <b>Samsun, Kabaceviz Şelaleleri</b><br>
+            Samsun'un doğal güzelliklerini en güzel yansıtan bölge kesinlikle Kabaceviz Şelaleleridir. Tekkeköy'e 35 km
+            mesafede bulunan Kabaceviz Şelaleleri aynı zamanda fotoğrafçıların en gözde yerini ziyaretinizde
+            sizlerde mükemmel Samsun resimleri çekebileceksiniz. Samsun gezi durakları listenizin üst sıralarına
+            Kabaceviz Şelalesini eklemenizi tavsiye ederiz.<br>
+
+            <b>Samsun, Büyük Camii</b><br>
+            Samsun'un sembol yapılarından bir tanesi olan Büyük Camii, Hıdır Bey tarafından yaptırılmış olup 1300
+            yılından beri Samsun Tarihine şahitlik etmektedir. 1884 yılında ise Batumlu Hacı Ali Efendi tarafından
+            tekrar
+            inşa edilen Samsun Büyük Camiinin mimarisi ve motifleri ziyaretçilerinin ilgi odağı olmaktadır. Samsun'un
+            Merkezinde bulunan Büyük Camii kesinlikle görülmesi gereken Samsun'un tarihi mekanlarından bir tanesi.<br>
+
+            <b>Samsun, Mater Dolorosa Katolik Kilisesi</b><br>
+            Tüm inaçlara saygılı olan Osmanlı Devleti'nde Sultan V. Murat'ın izniyle 1876 yılında yapılmaya başlayan
+            Mater Dolorosa Katolik Kilisesi, muhteşem mimarisi ile Samsun'un görülmeye değer tarihi yerleri arasında yer
+            almaktadır.
+            Uzun yıllardır Samsun'un tarihinde yer alan Mater Dolorosa Katolik Kilisesi, Samsun'da gezilecek yerler
+            listeniz için güzel bir alternatif olacaktır.<br>
+
+            <b>Samsun'da Konaklama</b><br>
+            Samsun doğal güzellikleri, coğrafi konumu ve tarihi dokusu ile Türkiye'nin güzel şehirlerinden bir
+            tanesidir. Samsun'da konaklama için farklı alternatifler bulabileceksiniz. Samsun Tatiliniz'de Samsun
+            Otelleri, pansiyonları ve farklı
+            konaklama mekanlarını bütçenize uygun şartlarla bulabilirsiniz. Samsun ziyaretinizde Villa kiralama ve tatil
+            evleri kiralama sektörünün öncü şirketlerinden olan Dream Of Holiday firmamız bünyesinde Samsun Tatilinde
+            konaklayabileceğiniz Samsun
+            Otelleri, pansiyonlarının dışında ailenizle konaklayıp tatil yapabileceğiniz Samsun tatil evleri ve Samsun
+            günlük kiralık dairelerimizle sizlere; Alaçam, Asarcık, Ayvacık, Bafra, Çarşamba, Havza, Kavak, Ladik,
+            Ondokuzmayıs, Salıpazarı, Tekkeköy,
+            Terme, Vezirköprü, Yakakent ve tüm Samsun genelinde en kaliteli konaklama hizmetini en uygun fiyata
+            sunmaktayız. Villada tatil ve günlük daire kiralama sektörünün öncülerinden olan firmamız Dream Of Holiday,
+            Bodrum, Marmaris, Kuşadası, Fethiye ve
+            Çeşme gibi tatil merkezlerinde olduğu gibi Samsun'da da her bütçeye ve her misafir grubuna otel konseptinde
+            hizmet vermektedir. Samsun'da farklı konumlarda ve farklı konseplerde bulunan günlük kiralık villalar ve
+            tatil evlerimize ilgili linklerden
+            ulaşabilirsiniz. Sezonun yoğun geçen dönemleri değişen fiyatlarımız ve Samsun tatil evlerimizin müsaitlik
+            durumunu Çağrı Merkezimizden 7/24 öğrenebilirsiniz.<br>
+
+            <b>Samsun'a Ulaşım</b> <br>
+            Samsun şehrine, karayolu, denizyolu, demiryolu ve havayolu ile rahatlıkla gidebilirsiniz. Karadenizin en
+            büyük Otobüs terminaline sahip olan Samsun'a başta İzmir, Ankara, İstanbul, Bursa ve Antalya gibi büyük
+            şehirler olmak üzere diğer şehirlerden
+            de düzenli seferler yapılmaktadır. Samsun'a denizyolu ile ulaşım sadece yaz aylarında açılan feribot
+            seferleri ile mümkün. Demir yolu ulaşımı için ise Samsun tren garını kullanabilirsiniz. Havayolu ile ulaşım
+            da ise Samsun Merkezine 19 km mesafede bulunan
+            Samsun Çarşamba Havalimanı kullanılmaktadır. Samsun Çarşamba Havalimanı Transfer ihtiyacınız için, diğer bir
+            kuruluşumuz olan Arsis Vip Transfer'den en uygun fiyata destek alabilirsiniz.<br>
+
+            Antalya, Aydın, Muğla gibi Türkiye’nin hemen her sahil şeridinde bizi tercih ettiğiniz gibi, Samsun’da da
+            bizleri tercih ettiğiniz için asla pişman olmayacaksınız. Samsun'da buluşmak ümidimizle.. İyi Tatiller..!
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Slader Bitiş-->
+  <!--Şehrim Bitiş-->
+
+  <!--Miras Baslangıç-->
+
+  <div class="container mt-4">
+    <div class="jumbotron bg-success">
+      <div class="row">
+        <div  class="col-sm-3">
+          <p class="clearfix text-justify">
+            <img src="img/samsun-kalesi.jpg" height="500" width="300" class="img-fluid float-left mr-4" alt="">
+              
+        </div>
+        <div  class="col-sm-9">
+          <p><strong class="h4 text-capitalize text-black">SAMSUN KALESİ</strong></p>
+          
+          <p> Danişmendliler tarafından 1192 yılında yapılan Samsun Kalesi, aynı zamanda Türklerin deniz kıyısında kurduğu
+            ilk kale olarak
+            bilinmektedir. Samsun Büyükşehir Belediyesi tarafından aslına uygun şekilde yeniden inşa edecek olan Samsun
+            Kalesi tekrar halkın
+            kullanımına açılacak.</p> 
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="gallery-block cards-gallery">
+      <div class="container">
+        <div class="heading">
+           <h2>Card Galerry</h2>
+          </div>
+          <div class="row">
+             <div class="col-md-6 col-lg-4">
+               <div class="card border-0 transform-on-hover">
+                  <a class="lightbox" href="img/samsun-kalesi.jpg"><img src=img/samsun-kalesi.jpg class="card-img-top"></a>
+                  <div class="card-body">
+                    <h6>Samsun kalesi</h6>
+                    <p class="text-muted card-text">Danişmendliler tarafından 1192 yılında yapılan Samsun Kalesi, aynı zamanda Türklerin deniz kıyısında kurduğu
+                      ilk kale olarak bilinmektedir. Samsun Büyükşehir Belediyesi tarafından aslına uygun şekilde yeniden inşa edecek olan Samsun
+                      Kalesi tekrar halkın kullanımına açılacak</p>
+                  </div>
+               </div>
+             </div>
+
+             <div class="col-md-6 col-lg-4">
+              <div class="card border-0 transform-on-hover">
+                 <a class="lightbox" href="img/bandirmajpg.png"><img src=img/bandirmajpg.png class="card-img-top"></a>
+                 <div class="card-body">
+                   <h6>Samsun, Bandırma Vapuru (Milli Mücadele Açık Hava Müzesi)</h6>
+                   <p class="text-muted card-text">Samsun'un Canik İlçesi'nde Bandırma Plajı'nda Sergilenen ve milli mücadele için Mustafa Kemal Atatürk’ü
+                    ve kurmaylarını Samsun’a getiren Bandırma Vapuru’nun aslına uygun kopyası olanBandırma Vapuru ve Milli Mücadele Açık Hava Müzesi olarak
+                    ziyaretçi kabul etmeye başlamıştır. Ayrıca Samsun'da gezilecek yerler listeniniz başına koyabileceğiniz müzede İzmir’in kurtuluşunu sergileyen
+                    kabartma duvarı ve Kurtuluş Savaşı’nda şehit düşen 1200 kişinin isimlerinin yazılı olduğu duvar ve aslına uygun bir şekilde dekore edilmiş ziyarete 
+                    açılmıştır.</p>
+                 </div>
               </div>
             </div>
-          </section>
-            <!--Slader Bitiş-->
-        <!--Şehrim Bitiş-->
 
-    <!-- Optional JavaScript; choose one of the two! -->
+           <div class="col-md-6 col-lg-4">
+              <div class="card border-0 transform-on-hover">
+                 <a class="lightbox" href="img/amisos-tepesi-samsun.jpg"><img src=img/amisos-tepesi-samsun.jpg class="card-img-top"></a>
+                 <div class="card-body">
+                   <h6>Samsun, Amisos Tepesi</h6>
+                   <p class="text-muted card-text">Samsun'un ilk yerleşim merkezi olan Amisos Tepesi, herkes tarafından yoğun ilgi görmekte olup Samsun'u
+                    kuşbakışı seyrebileceğiniz mükemmel bir gezi durağı. Şehir merkezine sadece 4 km mesafede olan Amisos Tepesi'ne teleferikle çıkıp
+                    muhteşem Samsun manzara resimleri çekebilirsiniz. Yerli ve yabancı bir çok kişinin Samsun'da gezi noktalarından Amisos Tepesi'ni sizlerde
+                    listenizde bulundurabilirsiniz.</p>
+                 </div>
+              </div>
+            </div>
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+            <div class="row">
+              <div class="col-md-6 col-lg-4">
+                <div class="card border-0 transform-on-hover">
+                   <a class="lightbox" href="img/tümülüs.png"><img src=img/tümülüs.png class="card-img-top"></a>
+                   <div class="card-body">
+                     <h6>Samsun, Kalkanca Tümüsleri</h6>
+                     <p class="text-muted card-text">Samsun'u tepeden görebileceğiniz Amisos Tepesi'nde bulunan ve Kuzey ve Güney tümülüsü olarak adlandırılan
+                      tümülüslerin altında Helenistik döneme ait olan toplam 5 kişinin mezar odası keşfedilmiştir. Samsun gezi duraklarına ekleyebileceğiniz
+                      Amisos Tepesi ve Kalkanca Tümüsleri sizlere ilgin bir deneyim yaşatacaktır.</p>
+                   </div>
+                </div>
+              </div>
+ 
+              <div class="col-md-6 col-lg-4">
+               <div class="card border-0 transform-on-hover">
+                  <a class="lightbox" href="img/ayvacık.jpg"><img src=img/ayvacık.jpg class="card-img-top"></a>
+                  <div class="card-body">
+                    <h6>Samsun, Ayvacık</h6>
+                    <p class="text-muted card-text">Yerleşim bakımından İsviçre'nin Landwasser Irmağı kenarında bulunan Davos'a benzeyen Ayvacık ortasından
+                    Yeşilırmak baraj göllerinin geçtiği mutheşem bir yerleşim merkezi. Özellikle Arap yatırımcıların gözdesi olan Ayvacık'ta Samsun'un
+                    muhteşem doğal güzelliklerine şahitlik edebileceksiniz. Olası Samsun tatilinizde bu muhteşem yerleşim yerini görmeden kesinlikle dönmeyin.
+                     </p>
+                  </div>
+               </div>
+             </div>
+ 
+            <div class="col-md-6 col-lg-4">
+               <div class="card border-0 transform-on-hover">
+                  <a class="lightbox" href="img/samsun_amazon_koyu-500x266.jpg"><img src=img/samsun_amazon_koyu-500x266.jpg class="card-img-top"></a>
+                  <div class="card-body">
+                    <h6>Samsun, Amazon Adası</h6>
+                    <p class="text-muted card-text">Socrates ve Eflatun'un eserleri ve Homeros'un dünyaca meşhur İlyada'sında adı geçen Amazonların Thermedon
+                      Çayı yöresinde kurdukları Themiskyra kentinde yaşadığı belirtilmektedir. Anadolu'nun en eski uygarlığı olan Hititlerin tabletlerinde
+                      de adı geçen Amazonlar,Samsun ve yöresinin tarihi ve kültürel değerlerinden biri olarak kabul edilmektedir. Samsun 19 Mayıs Üniversitesi
+                      ve Samsun Büyükşehir Belediyesi tarafından hayata geçirilen Amazon Köyü, Samsun ziyaretçilerinin ilgi odağı.</p>
+                  </div>
+               </div>
+             </div>
 
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
+             <div class="row">
+              <div class="col-md-6 col-lg-4">
+                <div class="card border-0 transform-on-hover">
+                   <a class="lightbox" href="img/kuscenneti.jpg"><img src=img/kuscenneti.jpg class="card-img-top"></a>
+                   <div class="card-body">
+                     <h6>Samsun, Kızılırmak Deltası Kuş Cenneti</h6>
+                     <p class="text-muted card-text"> Langoz ormanları, irili ufaklı göller, sazlıklar, bataklıklar, yerleşim alanları, tarım alanları ve yaban
+                      hayatı geliştirme sahaları bulabileceğiniz Bafra Kızılırmak Deltası kuş cenneti büyük bir arazide ve 19 Mayıs, Bafra ve Alaçam ilçe
+                      sınırları içerisinde bulunuyor.Mükemmel bir biyolojik çeşitlilik barındıran ve büyük bölümü milli park statüsünde koruma altında bulunan
+                      Kızılırmak Deltası içerisinde yer alan Kuş Cenneti, Türkiye’de bulunan 420 kuş türünden, 321 farklı kuş türüne ev sahipliği yapıyor. Samsun'un
+                      tabiat güzelliklerine şahi olacağınız ve muhteşem Samsun manzara resimleri çekebileceğiniz Bafra Kızılırmak Deltası kesinlikle görülmeye
+                      değer.</p>
+                   </div>
+                </div>
+              </div>
+ 
+              <div class="col-md-6 col-lg-4">
+               <div class="card border-0 transform-on-hover">
+                  <a class="lightbox" href="img/sahinkaya.jpg"><img src=img/sahinkaya.jpg class="card-img-top"></a>
+                  <div class="card-body">
+                    <h6>Samsun, Vezirköprü Şahinkaya Kanyonu</h6>
+                    <p class="text-muted card-text"> Muhteşem atmosferi ile doğa ve trekking tutkunlarını büyüleyen Vezirköprü Şahinkaya Kanyonu, karadeniz
+                      turunuzda mutlaka görmeniz gereken yerlerden bir tanesi. Samsun'un muhteşem doğal atmosferine şahitlik edeceğiniz kalyonu, tekne turları 
+                      illede gezmeniz mümkün. Samsun gezilecek yerler listesinize için şiddetle tavsiye ediyoruz.
+                     </p>
+                  </div>
+               </div>
+             </div>
+ 
+            <div class="col-md-6 col-lg-4">
+               <div class="card border-0 transform-on-hover">
+                  <a class="lightbox" href="img/Akdag-Kayak-Merkezi.jpg"><img src=img/Akdag-Kayak-Merkezi.jpg class="card-img-top"></a>
+                  <div class="card-body">
+                    <h6>Samsun, Akdağ Kayak Merkezi</h6>
+                    <p class="text-muted card-text">Samsun'un Merkezine 85 km mesafede bulunan ve Orta Karadeniz'in tek kayak merkezi olan Akdağ Kayak Merkezi,
+                      Samsun'un Ladik ilçesinde yer almaktadır.Kış tatili için Orta Karadeniz Bölgesinde yoğun ilgi gören Ladik Akdağ Kayak Merkezi, 6 adet pisti 
+                      kaymaya oldukça elverişli durumdadır. Samsun ziyaretçilerinin tüm ihtiyaçları düşünülmüş tesisleri, Akdağ Otelleri ve Amasya Merzifon Havalimanı'na
+                    olmasından dolayı oldukça rağbet görmektedir.</p>
+                  </div>
+               </div>
+             </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-6 col-lg-4">
+              <div class="card border-0 transform-on-hover">
+                 <a class="lightbox" href="img/ladik-golu.jpg"><img src=img/ladik-golu.jpg class="card-img-top"></a>
+                 <div class="card-body">
+                   <h6>Samsun, Ladik Gölü</h6>
+                   <p class="text-muted card-text"> Her mevsim ayrı bir havası olan bir Ladik gölü, yılın her dönemi yerel halkının ve Samsun ziyaretçilerinin
+                    önemli bir gezi durağı. Sevdikleriniz ve ailenizle
+                    birlikte Ladik gölü çevresinde piknik yapıp Samsun'un bu muhteşem doğal ortamında iliklerinize kadar huzur
+                    ve sakinliği hissedebileceksiniz. Ladik gölü çevresinde
+                    bulunan restaurantlarda turna balığı yemenizi tavsiye ediyoruz.</p>
+                 </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+             <div class="card border-0 transform-on-hover">
+                <a class="lightbox" href="img/yakakent.jpg"><img src=img/yakakent.jpg class="card-img-top"></a>
+                <div class="card-body">
+                  <h6>Samsun, Yakakent Çam Gölü</h6>
+                  <p class="text-muted card-text">Kışın ayrı bir güzel yazın ayrı bir güzel olan tek kelime doğa harikası bir mesire alanı. Samsun'un doğal
+                    güzellikleri arasında oldukça önem teşkil eden Yakakent Çam Gölü, trekking, kamping ve hiking tutkunlarının mutlaka görmesi gereken bir bölge.
+                   </p>
+                </div>
+             </div>
+           </div>
+
+          <div class="col-md-6 col-lg-4">
+             <div class="card border-0 transform-on-hover">
+                <a class="lightbox" href="img/kentmuzesi.jpg"><img src=img/kentmuzesi.jpg  class="card-img-top"></a>
+                <div class="card-body">
+                  <h6>Samsun, Kent Müzesi</h6>
+                  <p class="text-muted card-text"> Şehrin sosyal, coğrafi, kültürel, ekonomik, tarihi yapısına ilişkin belge ve malzemelere ev sahipliği yapan
+                    Samsun Kent Müzesi, İlk adım'da bulunmaktadır. 2013 yılından beri ziyaretçi ağırlayan Samsun Kent Müzesinde yıl içerisinde birçok sergi ve 
+                    eğitim çalışmasının yanı sıra çocuklara özel öğretici faaliyetler de gerçekleştirilmektedir.</p>
+                </div>
+             </div>
+           </div>
+
+           <div class="row">
+            <div class="col-md-6 col-lg-4">
+              <div class="card border-0 transform-on-hover">
+                 <a class="lightbox" href="img/gazimuzesi-gece.jpg"><img src=img/gazimuzesi-gece.jpg class="card-img-top"></a>
+                 <div class="card-body">
+                   <h6>Samsun, Gazi Müzesi</h6>
+                   <p class="text-muted card-text">  Milli Mücadelenin nasıl başladığını ve Atatürk’ün Samsun’a gelişine duygu yoğunluğu ile şahit olabileceğiniz
+                    Samsun'da ilk görülmesi gereken müze. Mustafa Kemal'in Samsun'a geldiğinde kaldığı yer olan Gazi Müzesi'nde Atatürk'ün özel eşyaları sergilenmektedir.</p>
+                 </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+             <div class="card border-0 transform-on-hover">
+                <a class="lightbox" href="img/samsun-sevgi-golu.jpg"><img src=img/samsun-sevgi-golu.jpg class="card-img-top"></a>
+                <div class="card-body">
+                  <h6>Samsun, Sevgi Gölü ve Hayvanat Bahçesi</h6>
+                  <p class="text-muted card-text">Samsun yolunun doğusunda yer alan ve şehrin cazip dinlenme merkezlerinden olan Sevgi Gölü, içerisinde yapay
+                  göl, gezi alanları, restaurant, cafe oturma alanları ve hayvanat bahçesi barındırmaktadır.Yapay göl alanında ise çeşitli balıklar ve su kuşları
+                   bulunmakta olup, Samsun ziyaretinize renk katacak ayrı bir havası olan bir bölgedir.
+                   </p>
+                </div>
+             </div>
+           </div>
+
+          <div class="col-md-6 col-lg-4">
+             <div class="card border-0 transform-on-hover">
+                <a class="lightbox" href="img/tekekoymagaralari.png"><img src=img/tekekoymagaralari.png  class="card-img-top"></a>
+                <div class="card-body">
+                  <h6>Samsun, Tekkeköy Mağaraları</h6>
+                  <p class="text-muted card-text"> Dünyanın her yerinden yoğun olarak ziyaretçi kabul eden Tekkeköy Mağaraları Arkeoloji Vadisi, binlerce
+                    yıllık Samsun tarihine ışık tutmaktadır. Türkiye’deki en eski 3’üncü insan yerleşkesi olarak bilinen Tekkeköy Mağaraları, tarih tutkunları 
+                    için muhteşem bir güzergah olacaktır.<br></p>
+                </div>
+             </div>
+           </div>
+        </div>
+      </div>
+  </section>
+
+  <!--Miras Bitiş-->
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
+    crossorigin="anonymous"></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js" integrity="sha384-lpyLfhYuitXl2zRZ5Bn2fqnhNAKOAaM/0Kr9laMspuaMiZfGmfwRNFh8HlMy49eQ" crossorigin="anonymous"></script>
     -->
-  </body>
+</body>
+
 </html>
