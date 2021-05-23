@@ -9,9 +9,8 @@
 
     <body>
         <div class="wrapper">
-            <h2>BİZE ULAŞIN</h2>
-            <div id="errormessage"> </div>
-            <form id="myform" onsubmit="return.validation()">
+            <h2>BİZE ULAŞIN</h2> 
+            <form id="myform" >
                 <div class="input_field">
                     <input type="text" placeholder="AD" id="AD">
                 </div>
@@ -25,10 +24,10 @@
                     <input type="text" placeholder="EMAİL" id="EMAİL">
                 </div>
                 <div class="input_field">
-                    <textarea id="MESAJ" placeholder="MESAJ" ></textarea>
+                    <textarea placeholder="MESAJ"  id="MESAJ" ></textarea>
                 </div>
                 <div class="btn">
-                    <input type="submit">
+                    <input type="submit" onclick="validation()">
                 </div>
             </form>
         </div>
